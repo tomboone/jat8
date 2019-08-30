@@ -1,0 +1,30 @@
+uuid: b897a58d-e68e-4e60-8223-df8289942030
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c3a81c08-3782-4d0c-b9e2-ce28bd837807'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: teenie_block_2
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:c3a81c08-3782-4d0c-b9e2-ce28bd837807'
+settings:
+  id: 'block_content:c3a81c08-3782-4d0c-b9e2-ce28bd837807'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

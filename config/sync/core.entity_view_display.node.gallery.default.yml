@@ -1,0 +1,21 @@
+uuid: 0db6cecb-bf26-45a9-84d6-3e8aadd17aec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.field_images
+    - node.type.gallery
+  module:
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_images: true

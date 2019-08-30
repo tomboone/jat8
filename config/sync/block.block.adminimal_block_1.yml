@@ -1,0 +1,25 @@
+uuid: a6ffae1a-d5c1-4051-952e-048e8a23cc28
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f8d3417c-9137-4b36-997f-f39c8e07a662'
+  module:
+    - block_content
+  theme:
+    - seven
+id: adminimal_block_1
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:f8d3417c-9137-4b36-997f-f39c8e07a662'
+settings:
+  id: 'block_content:f8d3417c-9137-4b36-997f-f39c8e07a662'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

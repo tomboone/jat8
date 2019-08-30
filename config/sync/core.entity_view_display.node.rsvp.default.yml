@@ -1,0 +1,63 @@
+uuid: 6f182b54-c82a-4235-aefd-91a0958fcdc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rsvp.field_dietary_restrictions
+    - field.field.node.rsvp.field_explain_restrictions
+    - field.field.node.rsvp.field_guest
+    - field.field.node.rsvp.field_rsvp
+    - field.field.node.rsvp.field_total
+    - node.type.rsvp
+  module:
+    - options
+    - user
+id: node.rsvp.default
+targetEntityType: node
+bundle: rsvp
+mode: default
+content:
+  field_dietary_restrictions:
+    label: above
+    weight: 3
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_explain_restrictions:
+    label: above
+    weight: 4
+    type: basic_string
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_guest:
+    label: above
+    weight: 0
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_rsvp:
+    label: above
+    weight: 1
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_total:
+    label: above
+    weight: 2
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

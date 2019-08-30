@@ -1,0 +1,22 @@
+uuid: 464b4567-1fd9-4eb2-9af6-1928457b71f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - jat_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: jat_theme_help
+theme: jat_theme
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

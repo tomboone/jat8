@@ -1,0 +1,39 @@
+uuid: a40c2aca-067e-4741-87e1-afd7944dcf9b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access all views'
+  - 'access content'
+  - 'access media browser'
+  - 'create files'
+  - 'create guest content'
+  - 'create page content'
+  - 'create rsvp content'
+  - 'delete any gallery content'
+  - 'delete any image files'
+  - 'delete own gallery content'
+  - 'delete own image files'
+  - 'download any image files'
+  - 'download own image files'
+  - 'edit any gallery content'
+  - 'edit any guest content'
+  - 'edit any image files'
+  - 'edit any page content'
+  - 'edit any rsvp content'
+  - 'edit own gallery content'
+  - 'edit own guest content'
+  - 'edit own image files'
+  - 'edit own page content'
+  - 'edit own rsvp content'
+  - 'use media wysiwyg'
+  - 'use text format filtered_html'
+  - 'view files'
+  - 'view own files'
+  - 'view own private files'

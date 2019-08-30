@@ -1,0 +1,30 @@
+uuid: 6f41a263-8232-4c8f-8b33-4bc63111b31d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c3a81c08-3782-4d0c-b9e2-ce28bd837807'
+  module:
+    - block_content
+    - system
+  theme:
+    - seven
+id: adminimal_block_2
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:c3a81c08-3782-4d0c-b9e2-ce28bd837807'
+settings:
+  id: 'block_content:c3a81c08-3782-4d0c-b9e2-ce28bd837807'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'
