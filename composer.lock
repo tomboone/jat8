@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "918f6953707aefd88d3e14abbc2c4faf",
+    "content-hash": "e921f10d9aa3b07ce85983e91f123682",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -6438,6 +6438,32 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2019-08-20T13:31:17+00:00"
+        },
+        {
+            "name": "tomboone/d8-scripts",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tomboone/d8-scripts.git",
+                "reference": "6c88e60a03ecf790acd3b31398184f1c5ebd0af6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tomboone/d8-scripts/zipball/6c88e60a03ecf790acd3b31398184f1c5ebd0af6",
+                "reference": "6c88e60a03ecf790acd3b31398184f1c5ebd0af6",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.2",
+                "php": ">=5.6"
+            },
+            "type": "drupal-script",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Custom scripts for Drupal 8 automation",
+            "time": "2019-10-01T20:51:49+00:00"
         },
         {
             "name": "twig/twig",

@@ -8908,6 +8908,34 @@
         "description": "A small library for converting tokenized PHP source code into XML and potentially other formats"
     },
     {
+        "name": "tomboone/d8-scripts",
+        "version": "0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tomboone/d8-scripts.git",
+            "reference": "6c88e60a03ecf790acd3b31398184f1c5ebd0af6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tomboone/d8-scripts/zipball/6c88e60a03ecf790acd3b31398184f1c5ebd0af6",
+            "reference": "6c88e60a03ecf790acd3b31398184f1c5ebd0af6",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "^1.2",
+            "php": ">=5.6"
+        },
+        "time": "2019-10-01T20:51:49+00:00",
+        "type": "drupal-script",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "description": "Custom scripts for Drupal 8 automation"
+    },
+    {
         "name": "twig/twig",
         "version": "v1.42.3",
         "version_normalized": "1.42.3.0",
